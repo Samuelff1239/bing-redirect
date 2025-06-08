@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Redirecting to Bing</title>
+    <title>Bing Redirect</title>
     <script>
-      window.onload = function () {
-        window.location.href = "https://www.bing.com/search?q=%20&showconv=1";
+      window.onload = () => {
+        // Redirect to Bing without query — no pre-filled search
+        window.location.href = "https://www.bing.com/?form=STRNLH";
       };
     </script>
   </head>
   <body>
-    <p>Redirecting to Bing with focus...</p>
+    <p>Redirecting to Bing...</p>
   </body>
 </html>
